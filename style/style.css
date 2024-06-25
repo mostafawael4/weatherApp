@@ -1,0 +1,139 @@
+body {
+  background-color: #1e202b;
+}
+
+.navbar {
+  background-color: #1e202b;
+  height: 120px;
+}
+.navbar a {
+  color: white;
+}
+
+.nav-item:hover .nav-link {
+  color: #009ad8;
+  border: 1px solid #009ad8;
+  /* padding: 3px 10px; */
+  border-radius: 150px;
+}
+
+main {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #262936;
+}
+.bt {
+  position: absolute;
+  right: 0;
+  background-color: #009ad8;
+}
+.input {
+  background-color: #1e202b;
+}
+.icon {
+  color: #009ad8;
+  /* margin: 0 10px; */
+  background-color: #1e202b;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.icon:hover {
+  background-color: #009ad8;
+  color: white;
+}
+
+.change {
+  background-color: #262936;
+  height: 50px;
+}
+.Company {
+  background-color: #262936;
+}
+.fa-location-dot,
+.fa-phone,
+.fa-envelope {
+  color: #009ad8;
+}
+
+.form input {
+  width: 48%;
+  background-color: transparent;
+  border-color: #262936;
+  /* box-shadow: none; */
+  border-width: 0.5px;
+}
+.details {
+  height: 300px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #009ad8;
+  border-width: 3px;
+}
+
+textarea {
+  background-color: transparent;
+  border-color: #262936;
+  border-width: 0.5px;
+}
+.day {
+  height: 30px;
+}
+.degree {
+  font-size: 70px;
+}
+.fa-sun {
+  color: yellow;
+  font-size: 40px;
+}
+.sunny {
+  color: #009ad8;
+}
+
+.today,
+.aftomorrow {
+  background-color: #323544;
+}
+.tomorrow {
+  background-color: #262936;
+}
+.form-control {
+  background-color: #1e202b;
+}
+
+.form-control:focus {
+  background-color: #1e202b;
+}
+
+textarea:focus,
+input:focus {
+  color: white !important;
+}
+
+.navbar-nav {
+  background-color: #1e202b;
+}
+.bg-light {
+  background-color: #1e202b !important;
+}
+
+
+@media screen and (max-width : 992)
+{
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .form input {
+  width: 100%;
+}
+}
